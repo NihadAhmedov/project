@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.house {
+    width: 340px;
+    height: 220px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.home {
+    position: relative;
+}
+
+.txt-content {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.lorem {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.fourphoto {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+}
+
+.buton {
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.onephoto {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.main {
+    font-size: 20px;
+
+}
+
+.container {
+    margin-top: 25px;
+    width: 95%;
+
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
